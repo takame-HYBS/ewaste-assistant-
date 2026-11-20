@@ -1,0 +1,13 @@
+{
+  "name": "ewaste-assistant",
+  "private": true,
+  "type": "module",
+  "description": "Second Life: E-Waste Repairability and Recycling Decision Assistant",
+  "scripts": {
+    "setup": "node scripts/setup.mjs",
+    "dev": "node scripts/dev.mjs",
+    "test": "npm --prefix server test",
+    "build": "npm --prefix server install && npm --prefix client install && npm --prefix client run build",
+    "start": "node scripts/start.mjs"
+  }
+}
